@@ -1,0 +1,17 @@
+{
+  "name": "Resume + Portfolio Generator",
+  "short_name": "Resume Gen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "description": "Build a resume and portfolio that stay in your browser.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

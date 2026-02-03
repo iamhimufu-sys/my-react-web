@@ -1,0 +1,27 @@
+@media print {
+  :root {
+    --bg: #ffffff;
+  }
+
+  body {
+    background: #ffffff;
+  }
+
+  .noPrint {
+    display: none !important;
+  }
+
+  #resume-preview {
+    box-shadow: none !important;
+    margin: 0 !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+@page {
+  margin: 0.5in;
+}
